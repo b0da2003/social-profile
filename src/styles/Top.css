@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+.top-container {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+.profile-picture {
+  width: 5.5rem;
+  border-radius: 50%;
+  margin: 2.5rem 0 1.5rem;
+}
+.profile-name {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.01rem;
+}
+.profile-address {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-family: 500;
+  color: hsl(75, 94%, 57%);
+  margin: 0 0 1.8rem;
+  font-size: 0.87rem;
+  letter-spacing: 0.01rem;
+}
+.profile-object {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-family: 200;
+  color: hsl(0, 0%, 70%);
+  font-size: 0.88rem;
+  margin-bottom: 1.6rem;
+}

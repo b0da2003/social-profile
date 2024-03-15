@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+.link-card {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  cursor: pointer;
+  list-style-type: none;
+  width: 90%;
+  font-size: 0.88rem;
+  height: 45px;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 0.7rem;
+  max-width: 305px;
+  transition: 0.3s all;
+}
+.link-card:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+.link-web {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  transition: 0.3s all;
+}
+.link-web:hover {
+  color: hsl(0, 0%, 0%);
+}
